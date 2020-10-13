@@ -3,7 +3,7 @@ offspring(X,Y):-
 
 
 parent(bluebird,charlie).
-parent(kundan,hisson).
+horse(bluebird).
 horse(X):-
     offspring(X,Y),horse(Y).
     
